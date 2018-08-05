@@ -1,0 +1,17 @@
+19
+Flask
+http://flask.pocoo.org/
+http://flask.pocoo.org/docs/1.0/quickstart/
+bash -c
+https://stackoverflow.com/questions/20858381/what-does-bash-c-do
+20
+https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
+https://docs.docker.com/engine/reference/commandline/swarm_join/#extended-description
+23
+https://docs.docker.com/storage/storagedriver/overlayfs-driver/#how-the-overlay-driver-works
+24
+https://docs.docker.com/samples/library/rabbitmq/#environment-variables
+26
+https://hub.docker.com/r/42school/engineering-bay/
+27
+https://docs.docker.com/engine/reference/commandline/service_logs/#options
