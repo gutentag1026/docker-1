@@ -15,3 +15,10 @@ https://docs.docker.com/samples/library/rabbitmq/#environment-variables
 https://hub.docker.com/r/42school/engineering-bay/
 27
 https://docs.docker.com/engine/reference/commandline/service_logs/#options
+
+02
+https://www.hostinger.com/tutorials/how-to-make-a-teamspeak-3-server/
+https://www.hostinger.com/tutorials/wget-command-examples/
+docker build -t give_it_a_name
+docker run -it -p=9987:9987/udp  -p=10011:10011 -p=30033:30033 give_it_a_name
+port is the secret
