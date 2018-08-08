@@ -22,3 +22,4 @@ https://www.hostinger.com/tutorials/wget-command-examples/
 docker build -t give_it_a_name
 docker run -it -p=9987:9987/udp  -p=10011:10011 -p=30033:30033 give_it_a_name
 port is the secret
+to extract name,tar,bz2, first unzip bz2 by bunzip2 and it became name.tar, then extract tar by tar xvf, -x extract -v verbose -f specify filename
