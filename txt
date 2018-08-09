@@ -23,3 +23,23 @@ docker build -t give_it_a_name
 docker run -it -p=9987:9987/udp  -p=10011:10011 -p=30033:30033 give_it_a_name
 port is the secret
 to extract name,tar,bz2, first unzip bz2 by bunzip2 and it became name.tar, then extract tar by tar xvf, -x extract -v verbose -f specify filename
+
+03 
+https://guides.rubyonrails.org/command_line.html#rails-dbconsole
+do manually on command line:
+gem install rails
+rails new folder_name
+http://192.168.99.100:3000 website to check if you are on rails
+do the following to Dockerfile
+docker build -t ft-rails
+docker run -it --rm ft-rails
+
+do the following to Dockerfile
+
+FROM ft-rails:on-build
+EXPOSE 3000
+CMD ["rails", "s", "-b", "0.0.0.0", "-p", "3000"]
+
+docker build -t ft-rails
+docker run -it --rm -p 3000:3000 (ruby on Rails applications default port)
+
