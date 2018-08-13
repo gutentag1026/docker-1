@@ -51,7 +51,7 @@ port http ssh(dameon)
 https://docs.gitlab.com/omnibus/docker/
 how to restart gitlab
 https://docs.gitlab.com/ee/administration/restart_gitlab.html
-docker cmd
+docker cmd docker run launches container and excecute what's inside CMD
 https://medium.freecodecamp.org/docker-entrypoint-cmd-dockerfile-best-practices-abc591c30e21
 
 
