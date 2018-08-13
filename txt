@@ -43,3 +43,15 @@ CMD ["rails", "s", "-b", "0.0.0.0", "-p", "3000"]
 docker build -t ft-rails
 docker run -it --rm -p 3000:3000 (ruby on Rails applications default port)
 
+04
+https://gitlab.com/gitlab-org/gitlab-ce
+search  installation page on the GitLab website 
+https://about.gitlab.com/installation/#ubuntu?version=ce
+port http ssh(dameon)
+https://docs.gitlab.com/omnibus/docker/
+how to restart gitlab
+https://docs.gitlab.com/ee/administration/restart_gitlab.html
+docker cmd
+https://medium.freecodecamp.org/docker-entrypoint-cmd-dockerfile-best-practices-abc591c30e21
+
+
